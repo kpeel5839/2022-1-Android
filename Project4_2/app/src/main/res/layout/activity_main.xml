@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id = "@+id/Text1"
+        android:text = "선택을 시작하겠습니까?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/switchAgree"
+        android:text= "시작함"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id = "@+id/Text2"
+        android:text = "좋아하는 안드로이드 버전은?"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id = "@+id/Rgroup1"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id ="@+id/RdoOreo"
+            android:text="오레오(8.0)"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id ="@+id/RdoPie"
+            android:text="파이(9.0)"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id ="@+id/RdoQ"
+            android:text="Q(10.0)"/>
+<!--        각 요소들도 그래도 layout_width , height 는 꼭 존재해야 하는 듯 -->
+    </RadioGroup>
+<!--    <Button-->
+<!--        android:id = "@+id/BtnOK"-->
+<!--        android:text = "선택 완료"-->
+<!--        android:visibility="invisible"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+    <ImageView
+        android:id = "@+id/ImgAndroid"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id = "@+id/BtnExit"
+        android:text = "종료"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id = "@+id/BtnInit"
+        android:text = "처음으로"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strBtn1"></Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strBtn2" />
+    <!--저기 사이에다가 주석 입력하면 오류남-->
+    <!-- @+id은 여기서 상황으로 설명하면 button1 이라는 id 값을 추가해준다라는 의미이다.-->
+    <!--string 같이 @ 만 하는 경우는 value 안에 들어있는 strings.xml 에 이것을 등록해줘야 하는 것이다.-->
+
+</LinearLayout>

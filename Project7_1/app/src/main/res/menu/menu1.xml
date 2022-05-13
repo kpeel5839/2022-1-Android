@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id = "@+id/menuRotate"
+        android:title = "그림 회전">
+    </item>
+    <group
+        android:checkableBehavior = "single">
+        <item
+            android:id = "@+id/hanlaMenu"
+            android:title = "한라산">
+        </item>
+        <item
+            android:id = "@+id/chuzadoMenu"
+            android:title = "추자도">
+        </item>
+        <item
+            android:id = "@+id/bumsumMenu"
+            android:title = "범섬">
+        </item>
+    </group>
+</menu>

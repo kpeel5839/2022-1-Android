@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">hello</string>
+    <string name="strBtn1">민준이 엉덩이</string>
+    <string name = "strBtn2">킹킹킹</string>
+    <!--여기다가 strBtn1 으로 저장하게 되면서 , 변수처럼 사용이 가능하게 된다.-->
+</resources>
