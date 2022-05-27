@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id = "@+id/edtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id = "@+id/edtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:id = "@+id/rdGroup"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical">
+        <RadioButton
+            android:id = "@+id/rdAdd"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "더하기"/>
+        <RadioButton
+            android:id = "@+id/rdSub"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "빼기"/>
+        <RadioButton
+            android:id = "@+id/rdMul"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "곱하기"/>
+        <RadioButton
+            android:id = "@+id/rdDiv"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "나누기"/>
+    </RadioGroup>
+    <Button
+        android:id = "@+id/btnCal"
+        android:text = "계산하기"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"/>
+</LinearLayout>
